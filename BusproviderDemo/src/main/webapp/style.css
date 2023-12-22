@@ -1,0 +1,225 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800&display=swap');
+
+
+* {
+	font-family: 'Montserrat', sans-serif !important;
+}
+
+body {
+	background: linear-gradient(0deg, rgba(12, 12, 12, 1) 0%, rgba(44, 44, 44, 1) 100%);
+	min-height: 100dvh;
+	padding-top: 65px;
+}
+
+.navbar {
+	background-color: #f4a91b;
+}
+
+.navbar-brand {
+	font-size: 26px;
+	font-weight: 700;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	color: #fff;
+}
+
+.navbar-brand .bi {
+	color: #6938d3;
+}
+
+.nav-link {
+	font-size: 18px;
+	font-weight: 600;
+}
+
+.nav-item {
+	margin-right: 20px;
+}
+
+.navbar .btn-login {
+	padding: 6px 15px;
+	font-size: 16px;
+	font-weight: 500;
+	color: #0F0F0F;
+	cursor: pointer;
+	border: 2px solid #E0DEF7;
+	border-radius: 8px;
+	background: #FFF;
+	transition: all 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+}
+
+.navbar .btn-login:hover {
+	color: #FFF;
+	background: #6938d3;
+}
+
+.text1 {
+	color: #f4a91b;
+	text-align: center;
+	font-size: 50px;
+	font-weight: 700;
+	letter-spacing: 5px;
+}
+
+.text2 {
+	color: #f4a91b;
+	text-align: center;
+	font-size: 30px;
+	font-weight: 600;
+}
+
+.text3 {
+	color: #eee;
+	text-align: center;
+	font-size: 16px;
+	font-weight: 500;
+}
+
+.imgset1 img {
+	width: 100%;
+	border-radius: 10px;
+}
+
+.text4,
+.text8 {
+	color: #f4a91b;
+	font-size: 45px;
+	font-weight: 700;
+}
+
+.text5 {
+	color: #eee;
+	font-size: 16px;
+	font-weight: 400;
+}
+
+.imgset2 img {
+	width: 100%;
+	border-radius: 10px;
+}
+
+#login-page {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+#login-page .login-wrap {
+	background-color: #fff3;
+	width: 400px;
+	padding: 30px;
+}
+
+#login-page .title {
+	color: #f4a91b;
+	font-size: 40px;
+	font-weight: 700;
+	text-align: center;
+}
+
+#login-page .btn-primary {
+	background-color: #f4a91b;
+	font-weight: 700;
+	border: none;
+}
+
+#login-page .a {
+	color: #eee;
+}
+
+#edit-user,
+#booking,
+#feedback {
+	display: block;
+	background: #fff;
+}
+
+#edit-user .data-wrap,
+#booking .data-wrap,
+#feedback .data-wrap {
+	background-color: #fff1c7;
+}
+
+#edit-user .form-label,
+#booking,
+.form-label,
+#feedback .form-label {
+	margin-bottom: 0px !important;
+	font-weight: 700;
+}
+
+#admin {
+	display: block;
+	background: #fff;
+}
+
+#admin .data-wrap {
+	background-color: #fff1c7;
+}
+
+.feedback-card {
+	padding: 20px;
+	border-radius: 10px;
+	background-color: #fff9;
+
+	max-width: 300px;
+}
+
+.feedback-card .name {
+	font-size: 18px;
+	font-weight: 700;
+	line-height: 19px;
+}
+
+.feedback-card .email {
+	font-size: 14px;
+	font-weight: 600;
+	line-height: 15px;
+	color: #333;
+	margin-bottom: 10px;
+}
+
+.feedback-card .comment {
+	font-size: 14px;
+	font-weight: 400;
+	color: #333;
+	line-height: 15px;
+	height: 120px;
+	overflow: hidden;
+}
+.text10{
+	text-align: left;
+}
+.feedback-card .date {
+	text-align: right;
+	font-size: 13px;
+	font-weight: 400;
+	color: #333;
+}
+.text9{
+	color: #ccc;
+	font-size: 13px;
+	font-weight: 600;
+}
+.footer hr{
+	border: 1px solid #fff;
+	width: 90%;
+	margin: auto;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+.footer {
+	background-color: #222;
+	/* Footer background color */
+	padding: 20px 0;
+}
+.footer p{
+	color: #ddd;
+}
+.footer a{
+	text-decoration: none;
+	font-size: 24px;
+}
+.btn-social{
+	margin-left: 10px;
+}
